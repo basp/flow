@@ -1,6 +1,12 @@
 # flow
 Experimental.
 
+# how to run?
+1. Clone the repo using your favorite git client.
+2. run `npm install` to install the depencies.
+3. run `npm start` to start the **BrowserSync** server. 
+4. run `npm tsc` to compile the TypeScript.
+
 # why?
 We wanna create a flow of something. One of the goals is to 
 be really precise with vertical positioning and have responsive 
