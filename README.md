@@ -50,7 +50,7 @@ ten rows and ten columns. The first row is `row-0` and the first column is
 ## containers
 You want a container of a certain height.
 ```
-<div class="l-height-1x" />
+<div class="l-height--1x" />
 ```
 
 This will create a container that is the height of one viewport. There's 
@@ -59,13 +59,19 @@ taht this stuff is meant for you might wanna consider dealing with.
 
 We could make its height two screens:
 ```
-<div class="l-height-2x" />
+<div class="l-height--2x" />
 ```
 
 Or half a screen:
 ```
-<div class="l-height-1/2x" />
+<div class="l-height--1/2x" />
 ```
+
+Or even *one and a half* (there are more sizes, check the source) of the screen:
+```
+<div class="l-height--1-1/2x" />
+```
+
 
 ## positioning vertically
 If you have a container can start to position elements within:
