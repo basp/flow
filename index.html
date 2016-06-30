@@ -25,7 +25,6 @@
         #s-1 {
             background-color: #000;
             color: #fff;
-            font-size: 5vh;
         }
 
         #s-2 {
@@ -47,7 +46,7 @@
 
 <body>
     <article>
-        <section id="s-1" class="l-height--1x">
+        <section id="s-1" class="l-height--1x" style="font-size: 5vh">
             <div class="l-row l-row--0">Row 0</div>
             <div class="l-row l-row--1">Row 1</div>
             <div class="l-row l-row--2">Row 2</div>
@@ -58,6 +57,13 @@
             <div class="l-row l-row--7">Row 7</div>
             <div class="l-row l-row--8">Row 8</div>
             <div class="l-row l-row--9">Row 9</div>
+
+
+            <div class="l-row l-row--4 l-rl-column--1" style="font-size: 8vh">
+                <div>
+                    <h1>Hello Flow!</h1>
+                </div>
+            </div>
         </section>
 
         <section id="s-2" class="l-height--1x">
@@ -89,7 +95,13 @@
             </div>
         </section>
 
-        <section id="s-4" class="l-height--1x">
+        <section id="s-4" class="l-height--1x" style="font-size: 3vh">
+            <div class="l-row l-row--7 l-column--1">
+                <span>I'm row eight.</span>
+            </div>
+            <div class="l-row l-row--8 l-column--4">
+                <span>I'm at the bottom (almost)! (and also aligned to the right)</span>
+            </div>
         </section>
     </article>
 
