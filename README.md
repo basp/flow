@@ -41,10 +41,12 @@ In practice, this means that the area of the viewport is divided into
 ten rows and ten columns. The first row is `row-0` and the first column is
 `column-0` so remember, the count starts from `0`.
 
+## containers
 You want a container of a certain height.
 ```
 <div class="l-height-1x" />
 ```
+
 This will create a container that is the height of one viewport. There's 
 a lot of sizes you can choose from but when you're dealing with the stuff
 taht this stuff is meant for you might wanna consider dealing with.
@@ -59,13 +61,39 @@ Or half a screen:
 <div class="l-height-1/2x" />
 ```
 
-If you have a container of some kind of size you can start to position 
-elements within:
+## positioning vertically
+If you have a container can start to position elements within:
 ```
-<div class="l-height-1
+<div class="l-height--1x>
+    <div class="l-row l-row--0">At the top!</div>
+    <div class="l-row l-row--9">At the bottom!</div>
+</div>
 ```
 
+A `l-height--1x` container is one viewport width. Each viewport
+is divided into ten columns and ten rows. So first `div` should
+appear at the top and the second one should appear at the bottom.
 
+## positioning horizontally
+We can always position things horizontally. Notice that *half* columns
+are supported as well. The viewport is divided into ten columns but you 
+can specify twenty steps. Everything from `0`, `1/2`, `1` all the way
+to `9` is supported. 
+
+By default we align from the left:
+```
+<div class="l-height--1/2x>
+    <div class="l-column--4" />
+</div>
+```
+
+But we can also align from the right using the `rl` variants of the `l-column`
+classes:
+```
+<div class="l-height--1/2x>
+    <div class="l-rl-column--2" />
+</div>
+```
 
 # disclaimer
 The horizontal positioning works pretty well but I'm sure CSS gurus
