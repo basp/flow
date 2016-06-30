@@ -1,0 +1,22 @@
+{
+  "name": "rcoak",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "browser-sync start --server --files index.js index.html",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "redhotminute.com",
+  "private": true,
+  "dependencies": {
+    "inuit-defaults": "^0.2.3",
+    "inuit-functions": "^0.2.0",
+    "inuit-layout": "^0.2.2",
+    "inuit-tools-widths": "^0.1.4",
+    "inuit-widths": "^0.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "typescript": "1.8.10"
+  }
+}

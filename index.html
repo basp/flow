@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Sandbox</title>
+
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Pacifico', cursive;
+        }
+
+        #s-1 {
+            background-color: #000;
+            color: #fff;
+            font-size: 5vh;
+        }
+
+        #s-2 {
+            background-color: hotpink;
+            color: black;
+        }
+
+        #s-3 {
+            background-color: azure;
+            color: black;
+        }
+
+        #s-4 {
+            background-color: pink;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <section id="s-1" class="l-height--1x">
+            <div class="l-row l-row--0">Row 0</div>
+            <div class="l-row l-row--1">Row 1</div>
+            <div class="l-row l-row--2">Row 2</div>
+            <div class="l-row l-row--3">Row 3</div>
+            <div class="l-row l-row--4">Row 4</div>
+            <div class="l-row l-row--5">Row 5</div>
+            <div class="l-row l-row--6">Row 6</div>
+            <div class="l-row l-row--7">Row 7</div>
+            <div class="l-row l-row--8">Row 8</div>
+            <div class="l-row l-row--9">Row 9</div>
+        </section>
+
+        <section id="s-2" class="l-height--1x">
+            <div class="c-popup js-popup l-row--3 l-column--1/2 l-width--2-columns "
+                 data-popup="">
+                <div class="c-popup__media">
+                    <img src="media/alana-01.jpg" class="u-responsive" />
+                </div>
+            </div>
+
+            <div class="c-popup js-popup l-row--1 l-rl-column--1/2 l-width--5-columns">
+                <div class="c-popup__media">
+                    <img src="media/bunny.jpg" class="u-responsive" />
+                </div>
+            </div>
+        </section>
+        
+        <section id="s-3" class="l-height--1x">
+            <div class="c-popup js-popup l-row--1 l-column--1-1/2 l-width--5-columns">
+                <div class="c-popup__media">
+                    <img src="media/alana-02.jpg" class="u-responsive" />
+                </div>
+            </div>
+
+            <div class="c-popup js-popup l-row--6 l-rl-column--1-1/2 l-width--3-columns">
+                <div class="c-popup__media">
+                    <img src="media/squirrel.jpg"" class="u-responsive" />
+                </div>
+            </div>
+        </section>
+
+        <section id="s-4" class="l-height--1x">
+        </section>
+    </article>
+
+    <script src="//code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/plugins/TextPlugin.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/jquery.ScrollMagic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

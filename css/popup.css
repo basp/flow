@@ -1,0 +1,26 @@
+.c-popup {
+    position: absolute;
+    transition: left 1s, right 1s, width 1s;
+}
+
+/* deprecated - use layout.css instead */
+
+.c-popup--left {
+    left: 5vw;
+}
+
+.c-popup--right {
+    right: 5vw;
+}
+
+.c-popup--small {
+    width: 20vw;
+}
+
+.c-popup--medium {
+    width: 50vw;
+}
+
+.c-popup--large {
+    width: 70vw;
+}

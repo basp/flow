@@ -35,3 +35,12 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# VSCode Settings
+.vscode
+
+# Random artifacts we have hanging around for reference
+attic
+
+# Transpiled files
+*.js

@@ -1,0 +1,16 @@
+{
+  "ambientDependencies": {
+    "greensock": "registry:dt/greensock#1.15.1+20160316155526",
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "lodash": "registry:dt/lodash#3.10.0+20160330154726",
+    "node": "registry:dt/node#4.0.0+20160509154515"
+  },
+  "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160416211519"
+  },
+  "globalDependencies": {
+    "greensock": "registry:dt/greensock#1.15.1+20160316155526",
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "lodash": "registry:dt/lodash#3.10.0+20160330154726"
+  }
+}
