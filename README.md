@@ -34,13 +34,38 @@ typing class names using whatever device you're using? then yes,
 this *might* be useful.
 
 # how do I use it?
+In `flow` we calculate everything relative to the viewport and always 
+in *tenths* because even numbers are better and `10` is just so awesome.
+
+In practice, this means that the area of the viewport is divided into
+ten rows and ten columns. The first row is `row-0` and the first column is
+`column-0` so remember, the count starts from `0`.
+
 You want a container of a certain height.
 ```
 <div class="l-height-1x" />
 ```
 This will create a container that is the height of one viewport. There's 
 a lot of sizes you can choose from but when you're dealing with the stuff
-taht this stuff is meant for you might wanna consider dealing with 
+taht this stuff is meant for you might wanna consider dealing with.
+
+We could make its height two screens:
+```
+<div class="l-height-2x" />
+```
+
+Or half a screen:
+```
+<div class="l-height-1/2x" />
+```
+
+If you have a container of some kind of size you can start to position 
+elements within:
+```
+<div class="l-height-1
+```
+
+
 
 # disclaimer
 The horizontal positioning works pretty well but I'm sure CSS gurus
